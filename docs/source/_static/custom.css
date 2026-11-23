@@ -1,0 +1,12 @@
+/* Keep documentation tables within the content area */
+.wy-table-responsive table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* Allow long text to wrap inside cells */
+.wy-table-responsive td,
+.wy-table-responsive th {
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+}
